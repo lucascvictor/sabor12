@@ -1,0 +1,6 @@
+<?php
+
+$APP_KEY = '3055762321101336';
+$SECRET_KEY = 'bf388ec81b46097eba8beca6471bb4de';
+
+?>

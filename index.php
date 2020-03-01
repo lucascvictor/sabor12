@@ -1,3 +1,6 @@
+<?php 
+require('facebook/login.php');
+?>
 <!DOCTYPE html>
 <head>
   <title>Sabor do meio-dia</title>
@@ -14,11 +17,8 @@
   <body>
     <div class="container">
       <div class="row">
-        <button class="btn col s3 l3 m3" onclick="FB.login();">LOGIN</button>
+        <button class="btn col s3 l3 m3" onclick="">LOGIN</button>
       </div>
     </div>
   </body>
-  <script src="./js/facebook.js">
-     console.log(validarStatusFb());
-  </script>
 </html>
