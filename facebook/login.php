@@ -7,4 +7,4 @@ $helper = $fb->getRedirectLoginHelper();
 $permissions = ['']; // Optional permissions
 $loginUrl = $helper->getLoginUrl('https://sabor12.herokuapp.com/facebook/fb-callback.php', $permissions);
 
-echo '<a href="' . htmlspecialchars($loginUrl) . '">Log in with Facebook!</a>';
+echo '<a href="' . htmlspecialchars(urldecode($loginUrl)) . '">Log in with Facebook!</a>';
