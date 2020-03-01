@@ -1,6 +1,4 @@
-<?php 
-require('facebook/login.php');
-?>
+
 <!DOCTYPE html>
 <head>
   <title>Sabor do meio-dia</title>
